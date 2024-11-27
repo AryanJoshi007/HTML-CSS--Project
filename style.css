@@ -1,0 +1,136 @@
+*{
+   text-decoration: none;
+}
+#heading{
+    display: flex;
+    align-items: center;
+    background-color: rgb(43, 34, 45);
+}
+.logo,img{
+    height:100px;
+    width: 100px;
+}
+.list,ol{
+    color: rgb(43, 34, 45);
+    font-style: italic;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 60%;
+    gap: 30%;
+    display: flex; 
+    justify-content: center;
+}
+.list,ul,a{
+    color: white;
+}
+#page1{
+    padding: 16%;
+    display: flex;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/originals/aa/e3/7c/aae37c60a32775897bdd7e441baece8c.png);
+}
+.offer{
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+
+.offer:hover{
+ color: rgb(6, 156, 156);
+}
+
+button{
+    font-size: xx-large;
+    font-style: italic;
+    color: black;
+}
+button:hover{
+    background-color: rgb(37, 32, 42);
+}
+#heading2{
+    color: white;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(29, 40, 48);
+}
+
+h1:hover{
+    color: rgb(178, 33, 33);
+}
+p:hover{
+    color: rgb(178, 33, 33);
+}
+#short-heading{
+    font-size: xx-large;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+}
+.product{
+    height: 280px;
+    width: 200px;
+    margin: 20px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.stars{
+    color: rgb(255, 255, 33);
+}
+#container2{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+}
+#heading3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    padding: 1%;
+    background-color: rgb(16, 19, 39);
+    color: white;
+}
+#container3{
+    display: flex;
+    align-items: center;
+}
+#container4{
+    display: flex;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    height: 200px;
+    max-width: 1677px;
+    background-color: rgba(63, 55, 55, 0.49);
+}
+.logo2{
+  padding: 2%;
+}
+h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+}
